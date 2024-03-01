@@ -1,6 +1,6 @@
 import AdminSidebar from "../components/AdminSidebar";
 
-const transactions = () => {
+const stopwatch = () => {
   return (
     <div className="adminContainer">
       {/* Sidebar */}
@@ -11,4 +11,4 @@ const transactions = () => {
   );
 };
 
-export default transactions;
+export default stopwatch;
