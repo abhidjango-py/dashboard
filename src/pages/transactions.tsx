@@ -48,7 +48,7 @@ const arr: DataType[] = [
     discount: 400,
     quanity: 3,
     status: <span className="red">Processing</span>,
-    action: <Link to="">Manage</Link>,
+    action: <Link to="/admin/transaction/poqipoi">Manage</Link>,
   },
   {
     user: "Xavior",
@@ -56,7 +56,7 @@ const arr: DataType[] = [
     discount: 400,
     quanity: 6,
     status: <span className="green">Shipped</span>,
-    action: <Link to="">Manage</Link>,
+    action: <Link to="/admin/transaction/shahswi">Manage</Link>,
   },
   {
     user: "Xavior",
@@ -64,7 +64,7 @@ const arr: DataType[] = [
     discount: 400,
     quanity: 6,
     status: <span className="purple">Delivered</span>,
-    action: <Link to="">Manage</Link>,
+    action: <Link to="/admin/transaction/ksahaosh">Manage</Link>,
   },
 ];
 
