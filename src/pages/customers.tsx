@@ -2,8 +2,6 @@ import { Column } from "react-table";
 import AdminSidebar from "../components/AdminSidebar";
 import { ReactElement, useCallback, useState } from "react";
 import TableHOC from "../components/TableHOC";
-import { Link } from "react-router-dom";
-import { FiDelete } from "react-icons/fi";
 import { FaTrash } from "react-icons/fa";
 
 interface DataType {
