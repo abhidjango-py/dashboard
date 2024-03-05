@@ -1,5 +1,12 @@
+import AdminSidebar from "../../components/AdminSidebar";
+
 const productManagement = () => {
-  return <div>productManagement</div>;
+  return (
+    <div className="adminContainer">
+      <AdminSidebar />
+      <main className="productManagement">ProductManagement</main>
+    </div>
+  );
 };
 
 export default productManagement;
