@@ -52,12 +52,12 @@ const dashboard = () => {
           />
         </section>
 
-        {/* graph section  & inventory section */}
+        {/* chart section  & inventory section */}
         <section className="graphContainer">
           <div className="revenueChart">
             <h2>Revenue & Transaction</h2>
 
-            {/* graph here */}
+            {/* revenue and transaction chart here */}
             <BarChart
               data_1={[300, 144, 433, 655, 237, 755, 190]}
               data_2={[200, 444, 343, 556, 778, 455, 990]}
