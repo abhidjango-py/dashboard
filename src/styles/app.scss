@@ -190,3 +190,19 @@ a {
     transform: rotateZ(360deg);
   }
 }
+.tempbutton {
+  background-color: rgb(0, 135, 180);
+  padding: 1rem 2rem;
+  border: none;
+  cursor: pointer;
+  color: rgb(255, 255, 255);
+  margin: 2rem;
+  font-weight: 700;
+  border-radius: 10px;
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
+  &:hover {
+    background-color: rgb(0, 153, 255); /* Green */
+    color: white;
+  }
+}

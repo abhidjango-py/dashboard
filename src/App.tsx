@@ -26,7 +26,11 @@ const App = () => {
         <Routes>
           <Route
             path="/"
-            element={<Link to="/admin/dashboard">Visit Dashboard</Link>}
+            element={
+              <Link to="/admin/dashboard">
+                <button className="tempbutton">Visit Dashboard</button>
+              </Link>
+            }
           />
           {/* main */}
           <Route path="/admin/dashboard" element={<Dashboard />} />
